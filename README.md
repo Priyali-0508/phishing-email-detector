@@ -25,9 +25,10 @@ Email Content -> TF-IDF Vectorization -> Random Forest Classifier -> Prediction:
     - On Linux: run `sudo apt install python3-tk`📦 Step-by-Step Installation
 
 1. **Clone the Repository**
+   🔗 [GitHub Repository](https://github.com/Priyali-0508/phishing-email-detector.git)
 ```bash
 git clone
-🔗 [GitHub Repository](https://github.com/Priyali-0508/phishing-email-detector.git)
+[GitHub Repository](https://github.com/Priyali-0508/phishing-email-detector.git)
 cd phishing-detector/tool/source_code
 
 2. **Install Dependencies** 
