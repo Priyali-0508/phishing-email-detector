@@ -3,6 +3,7 @@
 Email Phishing Detector (GUI + CLI) is a Python-based tool that uses machine learning to detect phishing emails based on their textual content. By analyzing patterns commonly found in phishing attempts, this tool can classify emails as either phishing or legitimate. It includes both a command-line interface (CLI) for quick testing and a graphical user interface (GUI) for a user-friendly experience. Built with a Random Forest classifier and TF-IDF vectorization, the system is lightweight, fast, and effective for educational or prototype-level use cases.
 
 **🚨 Problem Statement**
+
 Phishing emails are crafted to trick users into revealing sensitive information such as passwords, bank details, or login credentials. As attackers grow more sophisticated, traditional email filters often fail to detect these threats.
 This project aims to build an AI-based email phishing detector that classifies emails as phishing or legitimate based on their content using machine learning. The tool enhances digital safety by providing instant feedback on email authenticity.
 
@@ -14,6 +15,7 @@ This project aims to build an AI-based email phishing detector that classifies e
 - **Evaluation**: Assesses model performance using metrics like accuracy and F1-score.
 
 📈 **Workflow Diagram**
+
 Email Content -> TF-IDF Vectorization -> Random Forest Classifier -> Prediction: Phishing / Legitimate
 
 **⚙️ Setup Instructions**
@@ -30,18 +32,22 @@ Email Content -> TF-IDF Vectorization -> Random Forest Classifier -> Prediction:
 git clone
 [GitHub Repository](https://github.com/Priyali-0508/phishing-email-detector.git)
 cd phishing-detector/tool/source_code
-
-2. **Install Dependencies** 
+```
+2. **Install Dependencies**
+ ```
 pip install -r ../requirements.txt
-
+ ```
 3. **Train the Model**
+ ```
 python train_model.py
 This will save the model to 'model/phishing_model.pkl.'
-
+ ```
 4.**Run the CLI Tool**
+```
 python phishing_detector.py
-
+```
 5. **Run the GUI Tool**
+```
 python index.py
 ```
 **Screenshot**
@@ -57,6 +63,14 @@ python index.py
 ![GUI(3)](https://github.com/user-attachments/assets/16573076-405d-4328-97a1-98e2aaed21ab)
 ![GUI(4)](https://github.com/user-attachments/assets/b9397966-d90e-4072-b9d4-beb9c18e0b6d)
 ![GUI(5)](https://github.com/user-attachments/assets/d1537778-5e2d-4389-8d0a-4b6cf9e20a2f)
+
+**👤 Developed By**
+
+**Priyali Poojari**
+
+**Digisuraksha Internship Program**
+
+Date: 12-May-2025
 
 
 
