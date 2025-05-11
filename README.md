@@ -26,7 +26,8 @@ Email Content -> TF-IDF Vectorization -> Random Forest Classifier -> Prediction:
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/phishing-detector.git
+git clone
+🔗 [GitHub Repository](https://github.com/Priyali-0508/phishing-email-detector.git)
 cd phishing-detector/tool/source_code
 
 2. **Install Dependencies** 
