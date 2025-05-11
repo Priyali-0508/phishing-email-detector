@@ -72,6 +72,14 @@ python index.py
 
 Date: 12-May-2025
 
+**License & Disclaimer**
+
+This project is released under the MIT License. See the LICENSE file for details.
+
+**Disclaimer:**
+
+This phishing detection tool is intended for educational and research purposes only. It does not guarantee 100% accuracy. Users should exercise caution and complement it with other security measures when handling suspicious emails.
+
 
 
 
