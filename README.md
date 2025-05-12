@@ -40,8 +40,9 @@ pip install -r ../requirements.txt
 3. **Train the Model**
  ```
 python train_model.py
-This will save the model to 'model/phishing_model.pkl.'
  ```
+This will save the model to 'model/phishing_model.pkl.'
+
 4.**Run the CLI Tool**
 ```
 python phishing_detector.py
